@@ -16,6 +16,6 @@ metadata:
   namespace: vote-arc
 spec:
   ports:
-  - port: 80
+  - port: 8080
   selector:
     app: azure-vote-front
