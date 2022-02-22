@@ -46,9 +46,9 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-vote-front
-        image: huangyingting/azure-vote-front-arc:v2
+        image: huangyingting/azure-vote-front-arc:v3
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         resources:
           requests:
             cpu: 250m
