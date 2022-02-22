@@ -12,5 +12,5 @@ spec:
       paths:
       - backend:
           serviceName: azure-vote-front
-          servicePort: 80
+          servicePort: 8080
         path: /
