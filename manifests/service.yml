@@ -15,6 +15,7 @@ metadata:
   name: azure-vote-front
   namespace: vote-arc
 spec:
+  type: LoadBalancer
   ports:
   - port: 80
   selector:
